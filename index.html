@@ -148,7 +148,7 @@
         let docs = await getDocs(collection(db, "movies"));
         docs.forEach((doc) => {
             let row = doc.data();
-            console.log(row);
+            // console.log(row);
 
             let image = row['image'];
             let title = row['title'];
